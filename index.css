@@ -46,6 +46,7 @@
     --gutter-normal: 3rem;
     --gutter-small-1: 2.5rem;
     --gutter-small: 2rem;
+    
 
     --border-light: 1px solid rgb(36, 35, 35);
 }
@@ -298,13 +299,14 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .9)), 
-        url('./images/sky2.jpg');
+    background: linear-gradient(rgba(0,0,0, .3), rgba(0,0,0, .9)), 
+        url('./images/window.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     font-size: var(--font-size-normal);
+    object-fit: cover;
 }
 
 .header__text {
@@ -421,6 +423,9 @@ body:not(.user-is-tabbing) a:focus {
 @media(max-width: 400px) {
     .nav__item:not(:last-child) {
         margin-right: var(--gutter-normal);
+    }
+    .row {
+        padding: 0 !important;
     }
 }
 
