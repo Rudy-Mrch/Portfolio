@@ -331,8 +331,6 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: 25rem;
 }
 
-
-
 .work__links {
     display: flex;
     align-items: center;
@@ -362,7 +360,6 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-
 .about__content {
     display: flex;
     flex-direction: row-reverse;
@@ -373,11 +370,9 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-
 .contact__info {
     max-width: var(--container-medium-width);
 }
-
 
 .footer {
     text-align: center;
